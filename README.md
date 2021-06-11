@@ -18,6 +18,7 @@ I am looking for a tool or set of tools that will show me:
 ## Out of scope
 
 * Test coverage
+* Test security
 
 ## Plan
 
@@ -49,9 +50,28 @@ I am looking for a tool or set of tools that will show me:
 * [hacking](https://pypi.org/project/hacking/)
 * [Pylama](https://github.com/klen/pylama)
 
+## How to set up
+
+1. Checkout this repository.
+1. Ensure that you have installed the following:
+   1. [pyenv](https://github.com/pyenv/pyenv). 
+      It will help to manage python version automatically.
+   1. [pipenv](https://pypi.org/project/pipenv/)
+      It will manage python dependencies and python version.
+1. Run `PIPENV_YES=true pipenv install --ignore-pipfile`
+
 ## Results _WIP_
 
-TBD
+### Bandit
+
+Run as `pipenv run bandit -r ./app`.
+Covers only security issues. Out of scope.
+
+### Summary
+
+| Name | Comments |
+|------|----------|
+| TBD | TBD |
 
 ## My Conclusions
 
