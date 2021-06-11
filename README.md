@@ -30,7 +30,7 @@ I am looking for a tool or set of tools that will show me:
 **Analysers:** (also known as linters)
 * [Bandit](https://github.com/PyCQA/bandit)
 * [Mccabe](https://github.com/PyCQA/mccabe)
-* [MyPy](http://mypy-lang.org/)
+* [MyPy](https://mypy.readthedocs.io/en/stable/getting_started.html)
 * [pep8](https://pypi.org/project/pep8/)
 * [pycodestyle](https://github.com/PyCQA/pycodestyle)
 * [pydocstyle](https://github.com/PyCQA/pydocstyle)
@@ -70,13 +70,28 @@ Covers only security issues. Out of scope.
 ### McCabe
 
 Check McCabe complexity. Did not show anything in a standalone mode. 
-Does not meet any of my goals.
+Does not meet my goals.
 
-tried like:
+Tried like:
 ```shell
 pipenv shell
 cd app/examples
 python -m real_python --min 1 real_python.py
+```
+
+### MyPyMyPy
+
+Check optional static types. 
+It has failed to check imports from main.py like:
+`main.py:3: error: Cannot find implementation or library stub for module named "examples.simple_calculator"`
+Does not meet my goals.
+
+Tried like:
+```shell
+pipenv run mypy ./app 
+pipenv shell
+cd app/exmples
+mypy simple_calculator.py 
 ```
 
 ### Summary
@@ -85,6 +100,7 @@ python -m real_python --min 1 real_python.py
 |------|--------|----------|
 | Bandit | :x: | Out of Scope |
 | Mccabe | :x: | Does not meet my goals |
+| MyPy | :x: | Does not meet my goals |
 
 ## My Conclusions
 
