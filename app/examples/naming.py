@@ -6,14 +6,14 @@ def is_in_range(d1, d2, include):
     print("Who cares about readable if statements?")
     d = date.today()
     r = False
-    if include == "both":
-        r = d1 <= d <= d2
-    if include == "first":
-        r = d1 <= d < d2
-    if include == "second":
-        r = d1 < d <= d2
+    if (include == "both"):
+        r = d1 <= d and d <= d2
+    if (include == "first"):
+        r = d1 <= d and d < d2
+    if (include == "second"):
+        r = d1 < d and d <= d2
     else:
-        r = d1 < d < d2
+        r = d1 < d and d < d2
     print(f"Function result is {r}. Enjoy :)")
 
 
