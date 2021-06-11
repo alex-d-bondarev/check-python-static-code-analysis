@@ -8,6 +8,7 @@ bandit = "==1.7.0"
 mccabe = "==0.6.1"
 mypy = "==0.902"
 pep8 = "==1.7.1"
+pycodestyle = "==2.7.0"
 
 [dev-packages]
 

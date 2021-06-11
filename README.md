@@ -107,6 +107,16 @@ Tried like:
 pipenv run pep8 ./app
 ```
 
+### pycodestyle
+
+Check code against some of the style conventions in PEP 8.  
+It highlighted some "space" errors.Does not meet my goals.
+
+Tried like:
+```shell
+pipenv run pycodestyle ./app
+```
+
 ### Summary
 
 | Name | Status | Comments |
@@ -114,7 +124,8 @@ pipenv run pep8 ./app
 | Bandit | :x: | Out of Scope |
 | Mccabe | :x: | Does not meet my goals |
 | MyPy | :x: | Does not meet my goals |
-| pep8 | :x: | Outdated|
+| pep8 | :x: | Outdated |
+| pycodestyle | :x: | Does not meet my goals |
 
 ## My Conclusions
 
