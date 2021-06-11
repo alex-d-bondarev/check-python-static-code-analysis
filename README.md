@@ -1,7 +1,7 @@
 # check-python-static-code-analysis
 Check if different code analysis tools can detect ugly code in Python
 
-## Goal
+## Goals
 
 Example code is working, but is not very readable. 
 I am looking for a tool or set of tools that will show me:
@@ -67,11 +67,24 @@ I am looking for a tool or set of tools that will show me:
 Run as `pipenv run bandit -r ./app`.
 Covers only security issues. Out of scope.
 
+### McCabe
+
+Check McCabe complexity. Did not show anything in a standalone mode. 
+Does not meet any of my goals.
+
+tried like:
+```shell
+pipenv shell
+cd app/examples
+python -m real_python --min 1 real_python.py
+```
+
 ### Summary
 
-| Name | Comments |
-|------|----------|
-| TBD | TBD |
+| Name | Status | Comments |
+|------|--------|----------|
+| Bandit | :x: | Out of Scope |
+| Mccabe | :x: | Does not meet my goals |
 
 ## My Conclusions
 

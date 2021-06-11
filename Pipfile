@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 bandit = "==1.7.0"
+mccabe = "==0.6.1"
 
 [dev-packages]
 
