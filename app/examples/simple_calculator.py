@@ -28,3 +28,11 @@ def calc(expr, absolute=False):
         print(f"|{expr}| = {abs(a)}")
     else:
         print(f"{expr} = {abs(a)}")
+
+
+def biggest_number(param, param1):
+    print("This function name is confusing + if...return is overcomplicated")
+    if param > param1:
+        return True
+    else:
+        return False
