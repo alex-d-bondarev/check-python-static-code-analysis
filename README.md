@@ -79,11 +79,11 @@ cd app/examples
 python -m real_python --min 1 real_python.py
 ```
 
-### MyPyMyPy
+### MyPy
 
 Check optional static types. 
 It has failed to check imports from main.py like:
-`main.py:3: error: Cannot find implementation or library stub for module named "examples.simple_calculator"`
+`main.py:3: error: Cannot find implementation or library stub for module named "examples.simple_calculator"`  
 Does not meet my goals.
 
 Tried like:
@@ -94,6 +94,19 @@ cd app/exmples
 mypy simple_calculator.py 
 ```
 
+### pep8
+
+Looks like it is outdated. Here is an output that I received:
+
+> pep8 has been renamed to pycodestyle (GitHub issue #466)  
+> Use of the pep8 tool will be removed in a future release.  
+> Please install and use `pycodestyle` instead.
+
+Tried like:
+```shell
+pipenv run pep8 ./app
+```
+
 ### Summary
 
 | Name | Status | Comments |
@@ -101,6 +114,7 @@ mypy simple_calculator.py
 | Bandit | :x: | Out of Scope |
 | Mccabe | :x: | Does not meet my goals |
 | MyPy | :x: | Does not meet my goals |
+| pep8 | :x: | Outdated|
 
 ## My Conclusions
 
