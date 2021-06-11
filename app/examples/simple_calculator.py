@@ -1,5 +1,5 @@
 def calc(expr, absolute=False):
-    print("Enjoy repetitive code and boolean parameter")
+    print("Enjoy repetitive code and boolean parameter... and this function is pretty big :(")
     actions = expr.split()
     a = actions[0]
     calc = actions[1]
