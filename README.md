@@ -49,6 +49,7 @@ I am looking for a tool or set of tools that will show me:
 * [Flake8](https://flake8.pycqa.org/en/latest/)
 * [hacking](https://pypi.org/project/hacking/)
 * [Pylama](https://github.com/klen/pylama)
+* [SonarQube](https://www.sonarqube.org/features/multi-languages/python/)
 
 ## How to set up
 
