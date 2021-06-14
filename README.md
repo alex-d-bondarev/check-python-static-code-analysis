@@ -111,11 +111,20 @@ pipenv run pep8 ./app
 ### pycodestyle
 
 Check code against some of the style conventions in PEP 8.  
-It highlighted some "space" errors.Does not meet my goals.
+It highlighted some "space" errors. Does not meet my goals.
 
 Tried like:
 ```shell
 pipenv run pycodestyle ./app
+```
+
+### PyFlakes
+
+Check Python source files for errors. Does not meet my goals.
+
+Tried like:
+```shell
+pipenv run python -m pyflakes ./app/
 ```
 
 ### Summary
@@ -127,6 +136,7 @@ pipenv run pycodestyle ./app
 | MyPy | :x: | Does not meet my goals |
 | pep8 | :x: | Outdated |
 | pycodestyle | :x: | Does not meet my goals |
+| PyFlakes | :x: | Does not meet my goals |
 
 ## My Conclusions
 
