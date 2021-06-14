@@ -135,7 +135,7 @@ Tried like:
 pipenv run python -m pyflakes ./app/
 ```
 
-### Summary
+### Interim Summary
 
 | Name | Status | Comments |
 |------|--------|----------|
@@ -146,7 +146,7 @@ pipenv run python -m pyflakes ./app/
 | pep8 | :x: | Outdated |
 | pycodestyle | :x: | Does not meet my goals |
 | PyFlakes | :x: | Does not meet my goals |
-| Pylint | :grey_question: | TBD |
+| Pylint | :white_check_mark: | Looks good. Need more investigation |
 | Radon | :grey_question: | TBD |
 | wemake-python-styleguide | :grey_question: | TBD |
 | **Formatters:** |
