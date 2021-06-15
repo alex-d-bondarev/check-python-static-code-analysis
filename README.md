@@ -84,7 +84,6 @@ Check McCabe complexity. Did not show anything in a standalone mode. Does not me
 goals.
 
 Tried like:
-
 ```shell
 pipenv shell
 cd app/examples
@@ -98,7 +97,6 @@ Check optional static types. It has failed to check imports from main.py like:
 Does not meet my goals.
 
 Tried like:
-
 ```shell
 pipenv run mypy ./app 
 pipenv shell
@@ -115,7 +113,6 @@ Looks like it is outdated. Here is an output that I received:
 > Please install and use `pycodestyle` instead.
 
 Tried like:
-
 ```shell
 pipenv run pep8 ./app
 ```
@@ -126,7 +123,6 @@ Check code against some of the style conventions in PEP 8.
 It highlighted some "space" errors. Does not meet my goals.
 
 Tried like:
-
 ```shell
 pipenv run pycodestyle ./app
 ```
@@ -136,7 +132,6 @@ pipenv run pycodestyle ./app
 Check Python source files for errors. Does not meet my goals.
 
 Tried like:
-
 ```shell
 pipenv run python -m pyflakes ./app/
 ```
@@ -146,7 +141,6 @@ pipenv run python -m pyflakes ./app/
 Check some pep8 style rules
 
 Tried like:
-
 ```shell
 pipenv run pylint ./app/
 ```
@@ -156,7 +150,6 @@ pipenv run pylint ./app/
 Show code complexity.
 
 Tried like:
-
 ```shell
 pipenv run radon cc ./app/
 pipenv run radon raw ./app/
@@ -170,7 +163,6 @@ The "strictest and most opinionated python linter". The README looks interesting
 Could not find how to run separately. Is designed as flake8 plugin.
 
 Tried like:
-
 ```shell
 pipenv run wemake-python-styleguide ./app/
 ```
@@ -180,8 +172,22 @@ pipenv run wemake-python-styleguide ./app/
 Did small changes to code. Pycharm provides more options. 
 Need to specify each file separately.Tried like:
 
+Tried like:
 ```shell
 pipenv run autopep8 --in-place ./app/examples/real_python.py
+```
+
+### Black
+
+"Blackened code looks the same regardless of the project you're reading."
+Has a specific formatting approach. 
+I liked some changes and did not like others. 
+Not my style, but may be helpful to run one time in legacy projects,
+and fix ugly code. 
+
+Tried like:
+```shell
+pipenv run black ./app/
 ```
 
 ### First round Summary
@@ -200,7 +206,7 @@ pipenv run autopep8 --in-place ./app/examples/real_python.py
 | wemake-python-styleguide | :raised_eyebrow: | Is Flake8 plugin |
 | **Formatters:** |
 | Autopep8 | :x: | Does not meet my goals |
-| Black | :grey_question: | TBD |
+| Black | :white_check_mark: | 1 timer!? |
 | Isort | :grey_question: | TBD |
 | Yapf | :grey_question: | TBD |
 | **Packages** |

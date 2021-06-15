@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 autopep8 = "==1.5.7"
 bandit = "==1.7.0"
+black = "==21.6b0"
 mccabe = "==0.6.1"
 mypy = "==0.902"
 pep8 = "==1.7.1"
