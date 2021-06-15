@@ -69,7 +69,8 @@ tools that will show me:
 
 ## First round
 
-Quick check that at least one goal is met.
+Quick check that at least one goal is met. 
+No extra setup and config files will be created.
 Mark tools that failed all goals as :x: in **Interim Summary**.
 Mark tools that meet at least one goal as :white_check_mark: in **Interim Summary**.
 
