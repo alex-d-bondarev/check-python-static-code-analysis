@@ -66,7 +66,11 @@ tools that will show me:
        It will manage python dependencies and python version.
 1. Run `PIPENV_YES=true pipenv install --ignore-pipfile`
 
-## Results _WIP_
+## First round
+
+Quick check that at least one goal is met.
+Mark tools that failed all goals as :x: in **Interim Summary**.
+Mark tools that meet at least one goal as :white_check_mark: in **Interim Summary**.
 
 ### Bandit
 
@@ -133,6 +137,29 @@ Tried like:
 
 ```shell
 pipenv run python -m pyflakes ./app/
+```
+
+### Pylint
+
+Check some pep8 style rules
+
+Tried like:
+
+```shell
+pipenv run pylint ./app/
+```
+
+### Radon
+
+Show code complexity.
+
+Tried like:
+
+```shell
+pipenv run radon cc ./app/
+pipenv run radon raw ./app/
+pipenv run radon mi ./app/
+pipenv run radon hal ./app/
 ```
 
 ### Interim Summary
