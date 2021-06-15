@@ -146,8 +146,8 @@ pipenv run python -m pyflakes ./app/
 | pep8 | :x: | Outdated |
 | pycodestyle | :x: | Does not meet my goals |
 | PyFlakes | :x: | Does not meet my goals |
-| Pylint | :white_check_mark: | Looks good. Need more investigation |
-| Radon | :grey_question: | TBD |
+| Pylint | :white_check_mark: | Meets naming goal |
+| Radon | :white_check_mark: | Code complexity goal |
 | wemake-python-styleguide | :grey_question: | TBD |
 | **Formatters:** |
 | Autopep8 | :grey_question: | TBD |
