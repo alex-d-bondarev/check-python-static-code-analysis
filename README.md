@@ -52,6 +52,7 @@ tools that will show me:
 **Packages** (contain 2 or more analysers and probably formatters):
 
 * [Flake8](https://flake8.pycqa.org/en/latest/)
+* [flakehell](https://wemake-python-stylegui.de/en/latest/pages/usage/integrations/flakehell.html#flakehell)
 * [hacking](https://pypi.org/project/hacking/)
 * [Pylama](https://github.com/klen/pylama)
 * [SonarQube](https://www.sonarqube.org/features/multi-languages/python/)
@@ -162,6 +163,17 @@ pipenv run radon mi ./app/
 pipenv run radon hal ./app/
 ```
 
+### wemake-python-styleguide
+
+The "strictest and most opinionated python linter". The README looks interesting.
+Could not find how to run separately. Is designed as flake8 plugin.
+
+Tried like:
+
+```shell
+pipenv run wemake-python-styleguide ./app/
+```
+
 ### Interim Summary
 
 | Name | Status | Comments |
@@ -175,7 +187,7 @@ pipenv run radon hal ./app/
 | PyFlakes | :x: | Does not meet my goals |
 | Pylint | :white_check_mark: | Meets naming goal |
 | Radon | :white_check_mark: | Code complexity goal |
-| wemake-python-styleguide | :grey_question: | TBD |
+| wemake-python-styleguide | :raised_eyebrow: | Is Flake8 plugin |
 | **Formatters:** |
 | Autopep8 | :grey_question: | TBD |
 | Black | :grey_question: | TBD |
@@ -183,6 +195,7 @@ pipenv run radon hal ./app/
 | Yapf | :grey_question: | TBD |
 | **Packages** |
 | Flake8 | :grey_question: | TBD |
+| flakehell | :grey_question: | TBD |
 | hacking | :grey_question: | TBD |
 | Pylama | :grey_question: | TBD |
 | SonarQube | :grey_question: | TBD |
