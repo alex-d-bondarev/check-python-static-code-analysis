@@ -175,7 +175,16 @@ Tried like:
 pipenv run wemake-python-styleguide ./app/
 ```
 
-### Interim Summary
+### Autopep8
+
+Did small changes to code. Pycharm provides more options. 
+Need to specify each file separately.Tried like:
+
+```shell
+pipenv run autopep8 --in-place ./app/examples/real_python.py
+```
+
+### First round Summary
 
 | Name | Status | Comments |
 |------|--------|----------|
@@ -190,7 +199,7 @@ pipenv run wemake-python-styleguide ./app/
 | Radon | :white_check_mark: | Code complexity goal |
 | wemake-python-styleguide | :raised_eyebrow: | Is Flake8 plugin |
 | **Formatters:** |
-| Autopep8 | :grey_question: | TBD |
+| Autopep8 | :x: | Does not meet my goals |
 | Black | :grey_question: | TBD |
 | Isort | :grey_question: | TBD |
 | Yapf | :grey_question: | TBD |

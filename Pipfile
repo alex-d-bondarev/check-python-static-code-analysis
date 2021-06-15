@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+autopep8 = "==1.5.7"
 bandit = "==1.7.0"
 mccabe = "==0.6.1"
 mypy = "==0.902"
