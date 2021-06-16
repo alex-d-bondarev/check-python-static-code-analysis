@@ -226,6 +226,12 @@ pipenv run black ./app/
 | Pylama | :grey_question: | TBD |
 | SonarQube | :grey_question: | TBD |
 
+## 
+
+## Before conclusion _TBD_
+
+Go through this https://github.com/PyCQA
+
 ## My Conclusions
 
 TBD
@@ -235,5 +241,6 @@ TBD
 * [Clean Code videos by Robert C. Martin](https://learning.oreilly.com/videos/clean-code/9780134661742/9780134661742-CODE_01_00_00)
 * [isaak.dev - Python libraries to make your code readable, reliable and maintainable](https://isaak.dev/2020/08/python-libraries-to-make-your-code-readable-and-maintainable#code-style)
 * [Opensourse - 7 Python libraries for more maintainable code](https://opensource.com/article/18/7/7-python-libraries-more-maintainable-code)
+* [PyCQA - Organization for code quality tools (and plugins) for the Python programming language](https://github.com/PyCQA)
 * [Real Python - Python Code Quality: Tools & Best Practices](https://realpython.com/python-code-quality/)
 * [The Hitchhiker’s Guide to Python - Code Style](https://docs.python-guide.org/writing/style/)
