@@ -190,6 +190,16 @@ Tried like:
 pipenv run black ./app/
 ```
 
+### Isort
+
+Sort imports alphabetically, and automatically separated into sections and by type.
+I like the way it organises imports.
+
+Tried like:
+```shell
+pipenv run black ./app/
+```
+
 ### First round Summary
 
 | Name | Status | Comments |
@@ -207,7 +217,7 @@ pipenv run black ./app/
 | **Formatters:** |
 | Autopep8 | :x: | Does not meet my goals |
 | Black | :white_check_mark: | 1 timer!? |
-| Isort | :grey_question: | TBD |
+| Isort | :white_check_mark: | Make imports more readable |
 | Yapf | :grey_question: | TBD |
 | **Packages** |
 | Flake8 | :grey_question: | TBD |
