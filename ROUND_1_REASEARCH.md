@@ -2,7 +2,7 @@
 
 Steps taken to make initial comparison of tools
 
-[Link to main README](https://github.com/alex-d-bondarev/check-python-static-code-analysis#first-round-summary)
+[Link to main README](https://github.com/alex-d-bondarev/check-python-static-code-analysis#interim-summary)
 
 ## Analysers
 
@@ -216,4 +216,4 @@ sonar-scanner \
 
 ## Main README
 
-[Link to main README](https://github.com/alex-d-bondarev/check-python-static-code-analysis#first-round-summary)
+[Link to main README](https://github.com/alex-d-bondarev/check-python-static-code-analysis#interim-summary)

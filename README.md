@@ -70,14 +70,15 @@ tools that will show me:
 
 ## First round
 
-Quick check that at least one goal is met. 
-No extra setup and config files will be created.
-Mark tools that failed all goals as :x: in **Interim Summary**.
-Mark tools that meet at least one goal as :white_check_mark: in **Interim Summary**.
+1. Quick check that at least one goal is met. 
+2. No extra setup and config files will be created.
+3. Mark tools that failed all goals as :x: in **Interim Summary**.
+4. Mark tools that meet at least one goal as :white_check_mark: 
+   in **Interim Summary**.
 
 More details can be found [here](./ROUND_1_REASEARCH.md)
 
-### First round Summary
+### Interim Summary
 
 | Name | Status | Comments |
 |------|--------|----------|
@@ -104,13 +105,30 @@ More details can be found [here](./ROUND_1_REASEARCH.md)
 | Pylama | :x: | Does not meet my goals |
 | SonarQube | :x: | Does not meet my goals |
 
-## Before next round _TBD_
+## Second round
 
-Go through this https://github.com/PyCQA
+1. Filter out duplicate tools if any.
+1. Come up with the approach of using tools in CI/CD 
+   to improve code readability over time.
 
-## Round 2
+More details can be found [here](./ROUND_2_REASEARCH.md)
 
-## My Conclusions
+## My final summary
+
+### List of tools
+
+| Name | Status | Comments |
+|------|--------|----------|
+| **Analysers** |
+| Pylint | :grey_question: | Meets naming goal |
+| Radon | :grey_question: | Meets readability score goal |
+| wemake-python-styleguide | :grey_question: | Is Flake8 plugin |
+| code_quality | :grey_question: | Finally something close to my goals |
+| **Formatters** |
+| Black | :grey_question: | 1 timer!? |
+| Isort | :grey_question: | Make imports more readable |
+
+### Steps to take
 
 TBD
 
