@@ -99,6 +99,19 @@ Tried like:
 pipenv run wemake-python-styleguide ./app/
 ```
 
+### code_quality
+
+Quality check library inspired by the books of Robert C. Martin.
+I like it for code score. It would be nice to see more details in the report.
+
+Tried like:
+```shell
+# whole project:
+pipenv run python -m code_quality -d <absolute path to github folder>/check-python-static-code-analysis/app
+# specific file:
+pipenv run python -m code_quality -d <absolute path to github folder>/check-python-static-code-analysis/app/examples/simple_calculator.py
+```
+
 ## Formatters
 
 ### Autopep8
@@ -199,21 +212,6 @@ sonar-scanner \
   -Dsonar.sources=. \
   -Dsonar.host.url=http://localhost:9000 \
   -Dsonar.login=<generated token>
-```
-
-## Other 
-
-### code_quality
-
-Quality check library inspired by the books of Robert C. Martin.
-I like it for code score. It would be nice to see more details in the report.
-
-Tried like:
-```shell
-# whole project:
-pipenv run python -m code_quality -d <absolute path to github folder>/check-python-static-code-analysis/app
-# specific file:
-pipenv run python -m code_quality -d <absolute path to github folder>/check-python-static-code-analysis/app/examples/simple_calculator.py
 ```
 
 ## Main README

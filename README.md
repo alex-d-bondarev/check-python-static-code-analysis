@@ -29,7 +29,7 @@ tools that will show me:
 
 ## The List
 
-**Analysers:** (also known as linters)
+**Analysers:** (some of them are known as linters)
 
 * [Bandit](https://github.com/PyCQA/bandit)
 * [Mccabe](https://github.com/PyCQA/mccabe)
@@ -41,6 +41,7 @@ tools that will show me:
 * [Pylint](https://www.pylint.org/)
 * [Radon](http://radon.readthedocs.io/en/latest/)
 * [wemake-python-styleguide](https://github.com/wemake-services/wemake-python-styleguide)
+* [code_quality](https://github.com/ArthDubey/code_quality)
 
 **Formatters:**
 
@@ -56,9 +57,6 @@ tools that will show me:
 * [hacking](https://pypi.org/project/hacking/)
 * [Pylama](https://github.com/klen/pylama)
 * [SonarQube](https://www.sonarqube.org/features/multi-languages/python/)
-
-**Other** (I am too lazy to categorize):
-* [code_quality](https://github.com/ArthDubey/code_quality)
 
 ## How to set up
 
@@ -93,6 +91,7 @@ More details can be found [here](./ROUND_1_REASEARCH.md)
 | Pylint | :white_check_mark: | Meets naming goal |
 | Radon | :white_check_mark: | Meets readability score goal |
 | wemake-python-styleguide | :raised_eyebrow: | Is Flake8 plugin |
+| code_quality | :white_check_mark: | Finally something close to my goals |
 | **Formatters** |
 | Autopep8 | :x: | Does not meet my goals |
 | Black | :white_check_mark: | 1 timer!? |
@@ -104,8 +103,6 @@ More details can be found [here](./ROUND_1_REASEARCH.md)
 | hacking | :x: | Failed to install |
 | Pylama | :x: | Does not meet my goals |
 | SonarQube | :x: | Does not meet my goals |
-| **Other** |
-| code_quality | :white_check_mark: | Finally something close to my goals |
 
 ## Before next round _TBD_
 
