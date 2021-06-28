@@ -181,6 +181,26 @@ Tried like:
 pipenv run pylama ./app/ --report pylama.log
 ```
 
+### SonarQube
+
+I had high hopes on SonarQube :(
+
+Install like:
+1. Install like https://docs.sonarqube.org/latest/setup/get-started-2-minutes/
+1. `cd <sonar qube folder>`
+1. `sh sonar.sh start`
+1. Open http://localhost:9000/projects/create?mode=manual
+1. Create project and follow creation steps
+
+Run like:
+```shell
+sonar-scanner \
+  -Dsonar.projectKey=<project key that you choose> \
+  -Dsonar.sources=. \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=<generated token>
+```
+
 ## Main README
 
 [Link to main README](https://github.com/alex-d-bondarev/check-python-static-code-analysis#first-round-summary)

@@ -100,7 +100,7 @@ More details can be found [here](./ROUND_1_REASEARCH.md)
 | flakehell | :x: | Fails to run |
 | hacking | :x: | Failed to install |
 | Pylama | :x: | Does not meet my goals |
-| SonarQube | :grey_question: | TBD |
+| SonarQube | :x: | Does not meet my goals |
 
 ## Before next round _TBD_
 
