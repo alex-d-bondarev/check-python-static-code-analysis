@@ -146,6 +146,18 @@ pipenv run yapf -r -i ./app
 
 ## Packages
 
+### Flake8
+
+"Your Tool For Style Guide Enforcement".
+IMHO some warnings were irrelevant. 
+PyCharm shows more helpful information about warnings that are relevant to 
+my goals. 
+
+Tried like:
+```shell
+ pipenv run flake8 --benchmark --statistics -v ./app/ --output-file=flake8.log
+```
+
 ## Main README
 
 [Link to main README](https://github.com/alex-d-bondarev/check-python-static-code-analysis#first-round-summary)

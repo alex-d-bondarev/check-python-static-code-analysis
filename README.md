@@ -2,7 +2,7 @@
 
 Check if different code analysis tools can detect ugly code in Python
 
-## Goals
+## My Main Goals
 
 Example code is working, but is not very readable. I am looking for a tool or set of
 tools that will show me:
@@ -102,11 +102,11 @@ More details can be found [here](./ROUND_1_REASEARCH.md)
 | Pylama | :grey_question: | TBD |
 | SonarQube | :grey_question: | TBD |
 
-## 
-
-## Before conclusion _TBD_
+## Before next round _TBD_
 
 Go through this https://github.com/PyCQA
+
+## Round 2
 
 ## My Conclusions
 
