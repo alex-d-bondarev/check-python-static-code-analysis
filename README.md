@@ -98,7 +98,7 @@ More details can be found [here](./ROUND_1_REASEARCH.md)
 | **Packages** |
 | Flake8 | :x: | Does not meet my goals |
 | flakehell | :x: | Fails to run |
-| hacking | :grey_question: | TBD |
+| hacking | :x: | Failed to install |
 | Pylama | :grey_question: | TBD |
 | SonarQube | :grey_question: | TBD |
 

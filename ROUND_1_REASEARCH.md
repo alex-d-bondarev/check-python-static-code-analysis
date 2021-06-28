@@ -166,6 +166,11 @@ Add features to flake8. Failed with `AttributeError: 'Namespace' object has no a
 pipenv run flakehell lint -v ./app/
 ```
 
+### Hacking
+
+Failed to install it, due to multiple dependency errors:
+`[pipenv.exceptions.ResolutionFailure]: Warning: Your dependencies could not be resolved. You likely have a mismatch in your sub-dependencies.`
+
 ## Main README
 
 [Link to main README](https://github.com/alex-d-bondarev/check-python-static-code-analysis#first-round-summary)
