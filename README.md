@@ -96,8 +96,8 @@ More details can be found [here](./ROUND_1_REASEARCH.md)
 | Isort | :white_check_mark: | Make imports more readable |
 | Yapf | :x: | Does not meet my goals |
 | **Packages** |
-| Flake8 | :grey_question: | TBD |
-| flakehell | :grey_question: | TBD |
+| Flake8 | :x: | Does not meet my goals |
+| flakehell | :x: | Fails to run |
 | hacking | :grey_question: | TBD |
 | Pylama | :grey_question: | TBD |
 | SonarQube | :grey_question: | TBD |

@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e16dd777a7aa0221c30b2bde57159170b832ec61ed3e608c9ef0c8c99b4a0048"
+            "sha256": "d2f91c389d84301397645c75e29ddfd6740c55ebfceca81c0eaa58cdba0c209d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -143,6 +143,14 @@
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
             "version": "==0.17.1"
         },
+        "entrypoints": {
+            "hashes": [
+                "sha256:589f874b313739ad35be6e0cd7efde2a4e9b6fea91edcc34e58ecbb8dbe56d19",
+                "sha256:c70dd71abe5a8c85e55e12c19bd91ccfeec11a6e99044204511f9ed547d48451"
+            ],
+            "markers": "python_version >= '2.7'",
+            "version": "==0.3"
+        },
         "eradicate": {
             "hashes": [
                 "sha256:27434596f2c5314cc9b31410c93d8f7e8885747399773cd088d3adea647a60c8"
@@ -249,6 +257,14 @@
                 "sha256:812ff431f10576a74c89be4e85b8e075a705be39bc40c4b4278b5b13e2afa9af"
             ],
             "version": "==0.3.0"
+        },
+        "flakehell": {
+            "hashes": [
+                "sha256:208836d8d24194d50cfa4c1fc99f681f3c537cc232edcd06455abc2971460893",
+                "sha256:48a3a9b46136240e52b3b32a78a0826c45f6dcf7d980c30f758c1db5b1439c0b"
+            ],
+            "index": "pypi",
+            "version": "==0.9.0"
         },
         "future": {
             "hashes": [

@@ -158,6 +158,14 @@ Tried like:
  pipenv run flake8 --benchmark --statistics -v ./app/ --output-file=flake8.log
 ```
 
+### FlakeHell
+
+Add features to flake8. Failed with `AttributeError: 'Namespace' object has no attribute 'extended_default_ignore'`
+
+```shell
+pipenv run flakehell lint -v ./app/
+```
+
 ## Main README
 
 [Link to main README](https://github.com/alex-d-bondarev/check-python-static-code-analysis#first-round-summary)
