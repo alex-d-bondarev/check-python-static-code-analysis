@@ -136,7 +136,13 @@ pipenv run black ./app/
 
 ### Yapf
 
-TBD
+"Reformats code to the best formatting that conforms to the ... 
+'clang-format', developed by Daniel Jasper". Looks similar to PyCharm for me.
+
+Tried like:
+```shell
+pipenv run yapf -r -i ./app
+```
 
 ## Packages
 

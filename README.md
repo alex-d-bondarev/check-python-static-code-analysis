@@ -90,11 +90,11 @@ More details can be found [here](./ROUND_1_REASEARCH.md)
 | Pylint | :white_check_mark: | Meets naming goal |
 | Radon | :white_check_mark: | Meets readability score goal |
 | wemake-python-styleguide | :raised_eyebrow: | Is Flake8 plugin |
-| **Formatters:** |
+| **Formatters** |
 | Autopep8 | :x: | Does not meet my goals |
 | Black | :white_check_mark: | 1 timer!? |
 | Isort | :white_check_mark: | Make imports more readable |
-| Yapf | :grey_question: | TBD |
+| Yapf | :x: | Does not meet my goals |
 | **Packages** |
 | Flake8 | :grey_question: | TBD |
 | flakehell | :grey_question: | TBD |
