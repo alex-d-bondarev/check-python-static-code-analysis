@@ -12,7 +12,7 @@ tools that will show me:
 * what parts of the code need refactoring
 * refactoring suggestions
 
-## Optional Goal
+## Optional Goals
 
 * Find code formatters that can fix code readability
 * Measure analysis time
@@ -88,7 +88,7 @@ More details can be found [here](./ROUND_1_REASEARCH.md)
 | pycodestyle | :x: | Does not meet my goals |
 | PyFlakes | :x: | Does not meet my goals |
 | Pylint | :white_check_mark: | Meets naming goal |
-| Radon | :white_check_mark: | Code complexity goal |
+| Radon | :white_check_mark: | Meets readability score goal |
 | wemake-python-styleguide | :raised_eyebrow: | Is Flake8 plugin |
 | **Formatters:** |
 | Autopep8 | :x: | Does not meet my goals |
