@@ -162,6 +162,7 @@ Tried like:
 
 Add features to flake8. Failed with `AttributeError: 'Namespace' object has no attribute 'extended_default_ignore'`
 
+Tried like:
 ```shell
 pipenv run flakehell lint -v ./app/
 ```
@@ -170,6 +171,15 @@ pipenv run flakehell lint -v ./app/
 
 Failed to install it, due to multiple dependency errors:
 `[pipenv.exceptions.ResolutionFailure]: Warning: Your dependencies could not be resolved. You likely have a mismatch in your sub-dependencies.`
+
+### PyLama
+
+Check code quality. It does not catch warnings that I need.
+
+Tried like:
+```shell
+pipenv run pylama ./app/ --report pylama.log
+```
 
 ## Main README
 

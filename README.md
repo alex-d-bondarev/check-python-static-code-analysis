@@ -99,7 +99,7 @@ More details can be found [here](./ROUND_1_REASEARCH.md)
 | Flake8 | :x: | Does not meet my goals |
 | flakehell | :x: | Fails to run |
 | hacking | :x: | Failed to install |
-| Pylama | :grey_question: | TBD |
+| Pylama | :x: | Does not meet my goals |
 | SonarQube | :grey_question: | TBD |
 
 ## Before next round _TBD_
