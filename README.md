@@ -57,6 +57,9 @@ tools that will show me:
 * [Pylama](https://github.com/klen/pylama)
 * [SonarQube](https://www.sonarqube.org/features/multi-languages/python/)
 
+**Other** (I am too lazy to categorize):
+* [code_quality](https://github.com/ArthDubey/code_quality)
+
 ## How to set up
 
 1. Checkout this repository.
@@ -101,6 +104,8 @@ More details can be found [here](./ROUND_1_REASEARCH.md)
 | hacking | :x: | Failed to install |
 | Pylama | :x: | Does not meet my goals |
 | SonarQube | :x: | Does not meet my goals |
+| **Other** |
+| code_quality | :white_check_mark: | Finally something close to my goals |
 
 ## Before next round _TBD_
 
