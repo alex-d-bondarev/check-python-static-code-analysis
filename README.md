@@ -135,6 +135,7 @@ TBD
 ## References
 
 * [Clean Code videos by Robert C. Martin](https://learning.oreilly.com/videos/clean-code/9780134661742/9780134661742-CODE_01_00_00)
+* [Dirty Tests and How To Clean Them by Gil Zilberfeld](http://www.everydayunittesting.com/2021/05/dirty-tests-and-how-to-clean-them-webinar-recording.html)
 * [isaak.dev - Python libraries to make your code readable, reliable and maintainable](https://isaak.dev/2020/08/python-libraries-to-make-your-code-readable-and-maintainable#code-style)
 * [Opensourse - 7 Python libraries for more maintainable code](https://opensource.com/article/18/7/7-python-libraries-more-maintainable-code)
 * [PyCQA - Organization for code quality tools (and plugins) for the Python programming language](https://github.com/PyCQA)
